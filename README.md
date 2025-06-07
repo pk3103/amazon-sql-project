@@ -1,6 +1,3 @@
-# amazon-sql-project
-@@ -1,44 +1,44 @@
-# Sales Data Analysis Project
 # Amazon Sales Data Analysis Project
 
 ## Overview

@@ -4,6 +4,10 @@ where discounted_price < 500;
 select product_id, product_name,discount_percentage from mytable
 where discount_percentage >0.50;
 
+select product_name
+  from mytable
+  where product_name like '%cable%';
+
 select product_name,
 avg(actual_price-discounted_price) from mytable
 group by product_name;
